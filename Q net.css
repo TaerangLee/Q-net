@@ -16,7 +16,7 @@ body{
 .HRDK{
     
  
-   width: 120px;
+   width: 110px;
    
   
 }
@@ -24,6 +24,8 @@ body{
 .Mline{
    
     border-right:0.5px solid #cdced1;
+    position: relative;
+    
 }
 
 .Q_Net{ 
@@ -179,6 +181,7 @@ body{
     display: flex;
     align-items: center;
     
+    
 }
 
 .PLUS,
@@ -187,15 +190,23 @@ body{
    border: 0.5px solid white;
    color:#406bb6;
    font-weight: bold;
+   height: 16px;
+
+   background-color: white;
+   border:0.5px solid #dddddd;
 }
 
 .Subtract{
-    position: relative;
-    right:3px;
+    margin-left:2px;
 }
 
 .Substract_-{
     position: relative;
-    bottom:1.3px;
+    bottom:4px;
+}
+
+.Substract_p{
+    position: relative;
+    bottom:2px;
 }
 
