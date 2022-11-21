@@ -8,18 +8,32 @@ body{
 .Center_AreaHeight{
     display: flex;
     justify-content: center;
+
     border-bottom: 0.5px solid #cdced1;
+    
 }
 
 .HRDK{
     
-   border-left:0.5px solid #cdced1;
-   border-right:0.5px solid #cdced1;
+ 
    width: 120px;
+   
+  
 }
 
-.Q_Net{
-    border-right:0.5px solid  #cdced1;
+.Mline{
+   
+    border-right:0.5px solid #cdced1;
+}
+
+.Q_Net{ 
+    display: inline-block;
+    padding: 0 10px;
+    height: 28px;
+    color: #707b80;
+    font-size: 11px;
+    line-height: 24px;
+   
 }
 
 .Customer_Engagement{
@@ -30,7 +44,7 @@ body{
     font-size: 11px;
     line-height: 24px;
 
-    border-right:0.5px solid  #cdced1;
+   
 
 }
 
@@ -42,7 +56,7 @@ body{
     font-size: 11px;
     line-height: 24px;
 
-    border-right:0.5px solid  #cdced1;
+  
 
 
 }
@@ -62,8 +76,9 @@ body{
 
     background-color: yellow;
     color:red;
+    font-weight: bold;
 
-    border-right:0.5px solid  #cdced1;
+   
 }
 
 .remote_support{
@@ -76,7 +91,7 @@ body{
 
     color:blue;
 
-    border-right:0.5px solid  #cdced1;
+   
     font-weight: 700;
 
 }
@@ -157,5 +172,30 @@ body{
     color: #707b80;
     font-size: 11px;
     line-height: 24px; 
+}
+
+.buttons{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.PLUS,
+.Subtract{
+    font-size:15px;
+   border: 0.5px solid white;
+   color:#406bb6;
+   font-weight: bold;
+}
+
+.Subtract{
+    position: relative;
+    right:3px;
+}
+
+.Substract_-{
+    position: relative;
+    bottom:1.3px;
 }
 
