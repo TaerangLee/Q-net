@@ -298,14 +298,43 @@ body{
 }
 
 .full_menu{
-    margin-top:3vh;
+    margin-top:2.8vh;
+    display: flex;
+    align-items: center;
 }
 
 .BLINE{
-    width: 20vw;
-    height: 3vh;
-    color: black;
+   
+    width: 24vw;
+    height: 3.5vh;
+    background-color: #2d2e33;
 }
    
+
+.national_examination,
+.professional_exam,
+.check,
+.my_page,
+.customer_support{
+    
+    display: block;
+    height: 34px;
+    line-height: 30px;
+    background-color: #52535d;
+    color: #ccc;
+    font-weight: bold;
+
+  padding-left: 2.65vw;    
+  padding-right:2.45vw;
+}
+
+.BLINE,
+.national_examination,
+.professional_exam,
+.check,
+.my_page,
+.customer_support{
+    border-right:0.5px solid #898b94
+}
 
 
