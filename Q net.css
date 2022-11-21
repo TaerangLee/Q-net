@@ -220,7 +220,7 @@ body{
 .QNET{
     display: flex;
     justify-content:center;
-    margin-top:30px;
+    margin-top:25px;
     align-items: center;
    
    
@@ -242,12 +242,12 @@ body{
     font-weight: bold;
     border:0.5px solid  #cdced1;
     border-right:0;
-    height: 3vh;
+    height: 3.4vh;
     
 }
 
 .Search_Word{
-    height: 2.7vh;
+    height: 3vh;
     text-indent: 5px;
     border:0.5px solid  #cdced1;
     border-left:0;
@@ -256,8 +256,56 @@ body{
 
 ::placeholder {
     color: #406bb6;
+    font-weight: bolder;
+    font-size: 15px;
     
   }
 
+  .Look{
+    padding: 0;
+    width: 59px;
+    height: 33px;
+    background: #2f5586 url(../images/common/bg_ico_search.png) no-repeat center center;
+    border: 1px solid #00477c;
+       overflow: hidden;
+    vertical-align: top;
+    border-radius: 3px;
+  }
+
+  .Glass{
+    position: relative;
+    color: white;
+    right:2vw;
+    top: 0.3vh;
+   
+  }
+
+  .Look{
+    height: 3vh;
+
+  }
+
+  .Magnifying_Glass_DIV{
+    margin-left:0.6vh;
+  }
+
+  .Three{
+    margin-left:27vw;
+    margin-top:1vh;
+    position: relative;
+    left:10px;
+    top:2px;
+}
+
+.full_menu{
+    margin-top:3vh;
+}
+
+.BLINE{
+    width: 20vw;
+    height: 3vh;
+    color: black;
+}
+   
 
 
