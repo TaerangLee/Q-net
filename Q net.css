@@ -254,7 +254,7 @@ body{
 
 }
 
-::placeholder {
+.Search_Word::placeholder{
     color: #406bb6;
     font-weight: bolder;
     font-size: 15px;
@@ -302,6 +302,7 @@ body{
     display: flex;
     align-items: center;
     padding-left:1px;
+    height: 3vh;
 }
 
 .BLINE{
@@ -332,12 +333,10 @@ body{
   
 }
 
-.national_examination,
-.professional_exam,
-.check,
-.my_page,
-.customer_support:hover{
+.Back:hover{
+    background-color: blue;
     
+
 }
 
 
@@ -382,6 +381,7 @@ body{
     font-size: 11px;
     color: #97b8d2;
     overflow: hidden;
+    border-right:0.5px solid  #ccc;
 
    
    
@@ -393,7 +393,7 @@ body{
 }
 
 .BLINE2{
-    width: 24.2vw;
+    width: 24vw;
     height: 3.5vh;
     background-color: #2d2e33;
 }
@@ -402,8 +402,8 @@ body{
 .imageFour{
     display: flex;
     justify-content: center;
-    margin-top:5vh;
-    padding-right:6vw;
+    margin-top:4.5vh;
+    padding-right:7vw;
 }
 
 
@@ -413,4 +413,5 @@ body{
 .IM4{
     
     padding-left: 3.5vw;
+    cursor: pointer;
 }
