@@ -400,6 +400,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 4.5vh;
+    align-items: flex-start;
    
 }
 
@@ -411,6 +412,11 @@ body {
 
     
     cursor: pointer;
+}
+
+.IM3,
+.IM4{
+   
 }
 
 .IM1:hover {
@@ -444,10 +450,7 @@ body {
 
 }
 
-.SEMI_WORD {
-    display: flex;
-    justify-content: center;
-}
+
 
 .container{
    display: flex;
@@ -458,4 +461,25 @@ body {
    width: 250px;
    position: relative;
    right:30px;
+}
+
+.M1{
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    
+    letter-spacing: -1px;
+}
+
+.M2{
+    font-size: 13px;
+    line-height: 20px;
+    color: #666;
+    letter-spacing: -1px;
+}
+
+.MM{
+    position: relative;
+    bottom:0.6vh;
 }
