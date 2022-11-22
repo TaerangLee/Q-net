@@ -405,19 +405,6 @@ body {
 }
 
 
-.IM1,
-.IM2,
-.IM3,
-.IM4 {
-
-    
-    cursor: pointer;
-}
-
-.IM3,
-.IM4{
-   
-}
 
 .IM1:hover {
     font-size: 30px;
@@ -461,6 +448,8 @@ body {
    width: 250px;
    position: relative;
    right:30px;
+
+   cursor: pointer;
 }
 
 .M1{
