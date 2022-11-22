@@ -1,48 +1,37 @@
 html,
-body{
-    margin:0;  
-    padding:0;
-    
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.Center_AreaHeight{
+.Center_AreaHeight {
     display: flex;
     justify-content: center;
 
     border-bottom: 0.5px solid #cdced1;
     width: 100%;
-    
+
 }
 
 
 
-.HRDK{
-    
- 
-   width: 110px;
-   
-   
-  
+.HRDK {
+
+
+    width: 110px;
+
+
+
 }
 
-.Mline{
-   
-    border-right:0.5px solid #cdced1;
+.Mline {
+
+    border-right: 0.5px solid #cdced1;
     position: relative;
 
 }
 
-.Q_Net{ 
-    display: inline-block;
-    padding: 0 10px;
-    height: 28px;
-    color: #707b80;
-    font-size: 11px;
-    line-height: 24px;
-   
-}
-
-.Customer_Engagement{
+.Q_Net {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -50,11 +39,9 @@ body{
     font-size: 11px;
     line-height: 24px;
 
-   
-
 }
 
-.Fraud_reporting_center{
+.Customer_Engagement {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -62,18 +49,27 @@ body{
     font-size: 11px;
     line-height: 24px;
 
-  
 
 
 }
 
-.Center{
-   
-    
+.Fraud_reporting_center {
+    display: inline-block;
+    padding: 0 10px;
+    height: 28px;
+    color: #707b80;
+    font-size: 11px;
+    line-height: 24px;
+
+
+
+
 }
 
+.Center {}
 
-.technical_qualification{
+
+.technical_qualification {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -82,13 +78,13 @@ body{
     line-height: 24px;
 
     background-color: yellow;
-    color:red;
+    color: red;
     font-weight: bold;
 
-   
+
 }
 
-.remote_support{
+.remote_support {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -96,18 +92,18 @@ body{
     font-size: 11px;
     line-height: 24px;
 
-    color:blue;
+    color: blue;
 
-   
+
     font-weight: 700;
 
 }
 
-.assistant{
-    margin-left:1vw;
+.assistant {
+    margin-left: 1vw;
 }
 
-.mobile_app{
+.mobile_app {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -116,20 +112,21 @@ body{
     line-height: 24px;
 
 }
-.line{
-    border-right:2px solid  #cdced1;
+
+.line {
+    border-right: 2px solid #cdced1;
     height: 1.3vh;
-    margin-top:6px;
-    
-    
+    margin-top: 6px;
+
+
 }
 
-.LINEC{
+.LINEC {
     display: flex
 }
 
-.Login{ 
-    
+.Login {
+
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -139,7 +136,7 @@ body{
 
 }
 
-.Join{
+.Join {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
@@ -148,91 +145,91 @@ body{
     line-height: 24px;
 }
 
-.English{
+.English {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
     color: #707b80;
     font-size: 11px;
-    line-height: 24px;  
+    line-height: 24px;
 }
 
-.Information_Use{
+.Information_Use {
     display: inline-block;
     padding: 0 10px;
     height: 20px;
     color: black;
     font-size: 11px;
-    line-height: 24px;  
+    line-height: 24px;
 
     font-weight: bold;
 
-    
 
-  
+
+
 }
 
-.Screen_Size{
+.Screen_Size {
     display: inline-block;
     padding: 0 10px;
     height: 28px;
     color: #707b80;
     font-size: 11px;
-    line-height: 24px; 
+    line-height: 24px;
 }
 
-.buttons{
+.buttons {
     padding: 0 10px;
     display: flex;
     align-items: center;
-    
-    
+
+
 }
 
 .PLUS,
-.Subtract{
-    font-size:15px;
-   border: 0.5px solid white;
-   color:#406bb6;
-   font-weight: bold;
-   height: 16px;
+.Subtract {
+    font-size: 15px;
+    border: 0.5px solid white;
+    color: #406bb6;
+    font-weight: bold;
+    height: 16px;
 
-   background-color: white;
-   border:0.5px solid #dddddd;
+    background-color: white;
+    border: 0.5px solid #dddddd;
 }
 
-.Subtract{
-    margin-left:2px;
+.Subtract {
+    margin-left: 2px;
 }
 
-.Substract_-{
+.Substract_- {
     position: relative;
-    bottom:4px;
-    right:1px;
-   
+    bottom: 4px;
+    right: 1px;
+
 }
 
-.Substract_p{
+.Substract_p {
     position: relative;
-    bottom:2px;
+    bottom: 2px;
 }
 
-.QNET{
+.QNET {
     display: flex;
-    justify-content:center;
-    margin-top:25px;
+    justify-content: center;
+    margin-top: 25px;
     align-items: center;
-   
-   
-    
+
+
+
 }
 
-.dSelect{
+.dSelect {
     display: flex;
     align-items: center;
 }
 
-.SE{
+.SE {
     padding: 0 15px 2px 0;
     min-width: 80px;
     background: none;
@@ -240,85 +237,85 @@ body{
     font-size: 12px;
     color: #555;
     font-weight: bold;
-    border:0.5px solid  #cdced1;
-    border-right:0;
+    border: 0.5px solid #cdced1;
+    border-right: 0;
     height: 3.4vh;
-    
+
 }
 
-.Search_Word{
+.Search_Word {
     height: 3vh;
     text-indent: 5px;
-    border:0.5px solid  #cdced1;
-    border-left:0;
+    border: 0.5px solid #cdced1;
+    border-left: 0;
 
 }
 
-.Search_Word::placeholder{
+.Search_Word::placeholder {
     color: #406bb6;
     font-weight: bolder;
     font-size: 15px;
-    
-  }
 
-  .Look{
+}
+
+.Look {
     padding: 0;
     width: 59px;
     height: 33px;
-    background: #2f5586 url(../images/common/bg_ico_search.png) no-repeat center center;
+    background: #2f5586 ;
     border: 1px solid #00477c;
-       overflow: hidden;
+    overflow: hidden;
     vertical-align: top;
     border-radius: 3px;
-  }
+}
 
-  .Glass{
+.Glass {
     position: relative;
     color: white;
-    right:2vw;
+    right: 2vw;
     top: 0.3vh;
-   
-  }
 
-  .Look{
-    height: 3vh;
-
-  }
-
-  .Magnifying_Glass_DIV{
-    margin-left:0.6vh;
-  }
-
-  .Three{
-    margin-left:27vw;
-    margin-top:1vh;
-    position: relative;
-    left:10px;
-    top:2px;
 }
 
-.full_menu{
-    margin-top:2.8vh;
+.Look {
+    height: 3vh;
+
+}
+
+.Magnifying_Glass_DIV {
+    margin-left: 0.6vh;
+}
+
+.Three {
+    margin-left: 27vw;
+    margin-top: 1vh;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.full_menu {
+    margin-top: 2.8vh;
     display: flex;
     align-items: center;
-    padding-left:1px;
+    padding-left: 1px;
     height: 3vh;
 }
 
-.BLINE{
-   
+.BLINE {
+
     width: 24vw;
     height: 3.5vh;
     background-color: #2d2e33;
 }
-   
+
 
 .national_examination,
 .professional_exam,
 .check,
 .my_page,
-.customer_support{
-    
+.customer_support {
+
     display: block;
     height: 34px;
     line-height: 30px;
@@ -326,16 +323,16 @@ body{
     color: #ccc;
     font-weight: bold;
 
-  padding-left: 2.65vw;    
-  padding-right:2.45vw;
-  cursor: pointer;
+    padding-left: 2.65vw;
+    padding-right: 2.45vw;
+    cursor: pointer;
 
-  
+
 }
 
-.Back:hover{
-    background-color: blue;
-    
+.Back:hover {
+    background: #1d7abd;
+
 
 }
 
@@ -346,19 +343,19 @@ body{
 .professional_exam,
 .check,
 .my_page,
-.customer_support{
-    border-right:0.5px solid #898b94
+.customer_support {
+    border-right: 0.5px solid #898b94
 }
 
-.Arrow_picture{
+.Arrow_picture {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom:26px;
+    bottom: 26px;
 }
 
-.arrowDIV{
-   
+.arrowDIV {
+
     display: block;
     height: 34px;
     line-height: 30px;
@@ -371,7 +368,7 @@ body{
 
 }
 
-.Every_menu{
+.Every_menu {
     display: inline-block;
     padding-bottom: 10px;
     width: 58px;
@@ -381,37 +378,84 @@ body{
     font-size: 11px;
     color: #97b8d2;
     overflow: hidden;
-    border-right:0.5px solid  #ccc;
+    border-right: 0.5px solid #ccc;
 
-   
-   
+
+
 }
 
-.arrow{
+.arrow {
     display: flex;
     justify-content: center;
 }
 
-.BLINE2{
+.BLINE2 {
     width: 24vw;
     height: 3.5vh;
     background-color: #2d2e33;
 }
 
 
-.imageFour{
+.imageFour {
     display: flex;
     justify-content: center;
-    margin-top:4.5vh;
-    padding-right:7vw;
+    margin-top: 4.5vh;
+   
 }
 
 
 .IM1,
 .IM2,
 .IM3,
-.IM4{
+.IM4 {
+
     
-    padding-left: 3.5vw;
     cursor: pointer;
+}
+
+.IM1:hover {
+    font-size: 30px;
+}
+
+.SEMI {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 2.4vw;
+    bottom: 0.7vh;
+}
+
+.Receipt,
+.Pass,
+.Application,
+.Calendar {
+
+
+    position: relative;
+    z-index: 10;
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    color: #1d7abd;
+    letter-spacing: -1px;
+
+  
+
+
+}
+
+.SEMI_WORD {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-left:0;
+   width: 250px;
+   position: relative;
+   right:30px;
 }
