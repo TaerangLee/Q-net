@@ -66,7 +66,6 @@ body {
 
 }
 
-.Center {}
 
 
 .technical_qualification {
@@ -471,4 +470,11 @@ body {
 .MM{
     position: relative;
     bottom:0.6vh;
+}
+
+
+.image_Line{
+    border-bottom: 0.7px solid #d3d3d3;
+    position: relative;
+    top:4vh;
 }
