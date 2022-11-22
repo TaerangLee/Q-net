@@ -402,5 +402,15 @@ body{
 .imageFour{
     display: flex;
     justify-content: center;
-    margin-top:6vh;
+    margin-top:5vh;
+    padding-right:6vw;
+}
+
+
+.IM1,
+.IM2,
+.IM3,
+.IM4{
+    
+    padding-left: 3.5vw;
 }
