@@ -488,6 +488,7 @@ body {
     display: flex;
     width: 100%;
     
+    
 }
 
 .BACK_BLUE{
@@ -543,8 +544,10 @@ body {
 .IM_7,
 .IM_8{
     border-left: 0.5px solid rgb(226 226 226);
+    cursor: pointer;
 }
 
+.
 .IM_8{
     border-right: 0.5px solid rgb(226 226 226);
 }
