@@ -584,7 +584,7 @@ body {
    border: 1px solid #d5d5d5;;
 
     width: 21.5vw;
-    height: 40vh;
+    height: 42vh;
     margin-right:0.8vw;
 }
 
@@ -592,7 +592,7 @@ body {
     border: 1px solid #d5d5d5;;
 
     width: 29.5vw;
-    height: 40vh;
+    height: 42vh;
 }
 
 .IM_ALL{
@@ -675,17 +675,101 @@ body {
 }
 
 .Precautions{
+
     display: flex;
-    flex-direction: column;
+    
 }
+
+.warning{
+    position: relative;
+    bottom:1vh;
+    width: 21vw;
+}
+
+.warning_1,
+.warning_2,
+.warning_3{
+    font-size:12px;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.warning_2{
+    position: relative;
+    bottom:6px;
+}
+
 
 .Test_Time{
     font-weight: bold;
     color: #666666;
-    font-size: 13.7px;
-    padding-top:10.5vh;
+    font-size: 14.7px;
+    margin-top:7.5vh;
 }
 
 .ALL_TEST{
-    margin-left:10px;
+    margin-left:170px;
+    display: flex;
+    flex-direction: column;
 }
+
+.PP{
+    margin-top:2.5vh;
+}
+
+.warning_3{
+    position: relative;
+    bottom:5px;
+    margin-left:2.8vw;
+}
+
+.TEST__1{
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0 19px;
+    height: 28px;
+    color: #707b80;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.LINECC{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top:1.7vh;
+    position: relative;
+    right:1.8vw;
+    align-items: center;
+    
+}
+
+.line0{
+    border-right: 0.5px solid #cdced1;
+    height: 1.7vh;
+    margin-top:5px;
+}
+
+.PLUS_2{
+    position: relative;
+    left:5vw;
+    font-size: 5px;
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid white;
+    color: white;
+    background-color: #3a6695;
+}
+
+
+.Substract_p2{
+    font-size:20px;
+    position: relative;
+    right:3px;
+    bottom:2.83px;
+}
+
+
+
+
