@@ -407,10 +407,6 @@ body {
 
 
 
-.IM1:hover {
-    font-size: 30px;
-}
-
 .SEMI {
     display: flex;
     justify-content: center;
@@ -597,4 +593,13 @@ body {
 
     width: 28.4vw;
     height: 40vh;
+}
+
+.IM_ALL{
+    transition: all 0.2s linear;
+   
+}
+
+.IM_ALL:hover{
+    transform: scale(1.2);
 }
