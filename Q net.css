@@ -554,30 +554,6 @@ body {
     border-right: 0.5px solid rgb(226 226 226);
 }
 
-.IM_1:hover{
-    background-color: #b5c837;
-}
-.IM_2:hover{
-    background-color: #b5c837;
-}
-.IM_3:hover{
-    background-color: #b5c837;
-}
-.IM_4:hover{
-    background-color: #b5c837;
-}
-.IM_5:hover{
-    background-color: #b5c837;
-}
-.IM_6:hover{
-    background-color: #b5c837;
-}
-.IM_7:hover{
-    background-color: #b5c837;
-}
-.IM_8:hover{
-    background-color: #b5c837;
-}
 
 
 
@@ -588,6 +564,12 @@ body {
    
 }
 
+.HOVER_COLOR:hover{
+    
+    background-color: #b5c837;
+    transition-duration: 0.3s;
+  
+}
 
 
 .IM_0{
