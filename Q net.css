@@ -323,8 +323,10 @@ body {
     font-weight: bold;
 
     padding-left: 2.65vw;
-    padding-right: 2.45vw;
+    padding-right: 2.6vw;
     cursor: pointer;
+  
+   font-size:15px;
 
 
 }
@@ -503,6 +505,7 @@ body {
     font-size: 0.8rem;
     padding-left:13px;
     padding-right:15px;
+    
 
     
     
@@ -531,8 +534,8 @@ body {
     display: flex;
     flex-direction: column ;
     align-items: center;
-    width:130px;
-    margin-left:0.1px;
+    width:140px;
+    margin-left:0.2px;
 }
 
 .IM_1,
@@ -547,9 +550,42 @@ body {
     cursor: pointer;
 }
 
-.
 .IM_8{
     border-right: 0.5px solid rgb(226 226 226);
+}
+
+.IM_1:hover{
+    background-color: #b5c837;
+}
+.IM_2:hover{
+    background-color: #b5c837;
+}
+.IM_3:hover{
+    background-color: #b5c837;
+}
+.IM_4:hover{
+    background-color: #b5c837;
+}
+.IM_5:hover{
+    background-color: #b5c837;
+}
+.IM_6:hover{
+    background-color: #b5c837;
+}
+.IM_7:hover{
+    background-color: #b5c837;
+}
+.IM_8:hover{
+    background-color: #b5c837;
+}
+
+
+
+.IM_9{
+    width: 25%;
+    border-bottom: 3.7vh solid rgb(0, 85, 126);
+
+   
 }
 
 
@@ -558,4 +594,25 @@ body {
     width: 24.1vw;
     border-bottom: 3.7vh solid rgb(0, 85, 126);
 
+}
+
+.main_cont{
+    margin-top:1.7vh;
+    display: flex;
+    justify-content: center;
+}
+
+.test_ing{
+   border: 1px solid #d5d5d5;;
+
+    width: 22.5vw;
+    height: 40vh;
+    margin-right:0.8vw;
+}
+
+.test_ing2{
+    border: 1px solid #d5d5d5;;
+
+    width: 28.4vw;
+    height: 40vh;
 }
