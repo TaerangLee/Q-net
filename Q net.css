@@ -583,7 +583,7 @@ body {
 .test_ing{
    border: 1px solid #d5d5d5;;
 
-    width: 22.5vw;
+    width: 21.5vw;
     height: 40vh;
     margin-right:0.8vw;
 }
@@ -591,7 +591,7 @@ body {
 .test_ing2{
     border: 1px solid #d5d5d5;;
 
-    width: 28.4vw;
+    width: 29.5vw;
     height: 40vh;
 }
 
@@ -602,4 +602,90 @@ body {
 
 .IM_ALL:hover{
     transform: scale(1.2);
+}
+
+
+
+.dt_on{
+    display: flex;
+    justify-content: center;
+    margin-top:2.3vh;
+    align-items: center;
+    
+}
+
+.acceptance_test{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    margin-right:5.5vw;
+    
+    
+}
+
+.Notice{
+    position: relative;
+    bottom:2px;
+    height: 31px;
+    padding: 0 9px;
+    font-size: 13px;
+    background-color: #437194;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #31587b;
+
+    font-weight: bold;
+    right:1vw;
+    cursor: pointer;
+}
+
+
+
+.dd{
+    display: flex;
+    justify-content: center;
+    margin-right:7vw;
+    margin-top:20px;
+}
+
+.handwriting{
+    display: block;
+    color: #016cbc;
+    font-size:13px;
+}
+
+.handwriting2{
+    font-size:13px;
+    position: relative;
+    left:0.4vw;
+    color: #333;
+    
+}
+
+.LI1,
+.LI2,
+.LI3{
+    cursor: pointer;
+}
+
+.test2{
+    padding: 8px 0 8px 0;
+}
+
+.Precautions{
+    display: flex;
+    flex-direction: column;
+}
+
+.Test_Time{
+    font-weight: bold;
+    color: #666666;
+    font-size: 13.7px;
+    padding-top:10.5vh;
+}
+
+.ALL_TEST{
+    margin-left:10px;
 }
