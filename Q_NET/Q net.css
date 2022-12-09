@@ -788,13 +788,6 @@ body {
     cursor: pointer;
 }
 
-.CL:active{
-
-    color:black;
-    font-weight: bolder;
-
-}
-
 .CONTENT_Main{
     font-size: 0.8rem;
     color:#de3323;
