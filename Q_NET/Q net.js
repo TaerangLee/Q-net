@@ -1,10 +1,9 @@
-const test = document.querySelector(".Customer_Engagement");
+const test = document.querySelectorAll(".LINECC span");
 
-console.log(test);
 
 function add1(){
     console.log("click here");
-    test.style.color="blue";
+    test.style.color="black";
 
 }
 
